@@ -133,10 +133,8 @@ img {
   #steps .row>.right{
     width: 50%;
     display: block;
-    position: relative;  
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10px;
+    float: unset;
+    margin: 10px auto;
   }
 }
 
